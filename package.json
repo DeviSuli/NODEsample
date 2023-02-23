@@ -1,0 +1,25 @@
+{
+  "name": "nodesample",
+  "version": "1.0.0",
+  "description": "a review  of my Nodejs experience.. with Expressjs for server, using npm for dependencies manangement, JWT for authentificaton and Mongoose for DB connection and modelling",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeviSuli/NODEsample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeviSuli/NODEsample/issues"
+  },
+  "homepage": "https://github.com/DeviSuli/NODEsample#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
