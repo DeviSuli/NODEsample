@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 2.5rem;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #9fb75d;
+  color: rgb(95, 33, 33);
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+}
