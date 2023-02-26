@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/DeviSuli/NODEsample#readme",
   "dependencies": {
+    "date-fns": "^2.29.3",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
   }
 }
