@@ -6,7 +6,13 @@ const bcrypt = require("bcrypt");
 // @desc GET all users
 // @route GET /users
 // @access Private
-const getAllUsers = asyncHandler(async (req, res) => {});
+const getAllUsers = asyncHandler(async (req, res) => {
+  const users = await User.find().select("-password").lean();
+  if (!users) {
+    return res.status(400).json({ message: "No Users found" });
+  }
+  res.json(users);
+});
 
 // @desc create new users
 // @route POST /users
