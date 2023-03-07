@@ -5,7 +5,9 @@ import Public from "./components/Public";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layouts />}></Route>
+      <Route path="/" element={<Layouts />}>
+        <Route index element={<Public />} />
+      </Route>
     </Routes>
   );
 }
