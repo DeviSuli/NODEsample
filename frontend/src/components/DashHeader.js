@@ -7,11 +7,11 @@ const DashHeader = () => {
         <Link to="/dash/notes">
           <h1 className="dash-header__title">TechNotes</h1>
         </Link>
+        <nav className="dash-header__nav"> {/* add nav buttons later */} </nav>
       </div>
     </header>
   );
 
-  return <div>DashHeader</div>;
-};
+  return content
 
 export default DashHeader;
