@@ -12,6 +12,6 @@ const DashHeader = () => {
     </header>
   );
 
-  return content
-
+  return content;
+};
 export default DashHeader;
