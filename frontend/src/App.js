@@ -10,6 +10,7 @@ function App() {
       <Route path="/" element={<Layouts />}>
         <Route index element={<Public />} />
         <Route path="login" element={<Login />} />
+        <Route path="dash" element={<DashLayout />}></Route>
       </Route>
     </Routes>
   );
